@@ -51,4 +51,12 @@
 
 </table>
 
+## Table of contents
+
+The table of contents is created using the command `\tableofcontents` and is placed at the beginning of the document(after the `\maketitle`) command.
+
+## `\section[alias]{...}`
+
+This command can be used when the name of the section is very long, and we don't want it to appear in the table of contents. The `alias` acts as a substitute to this long name and is going to appear in the table of contents instead of that long name.
+
 ---
