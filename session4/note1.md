@@ -59,4 +59,24 @@ The table of contents is created using the command `\tableofcontents` and is pla
 
 This command can be used when the name of the section is very long, and we don't want it to appear in the table of contents. The `alias` acts as a substitute to this long name and is going to appear in the table of contents instead of that long name.
 
+## Avoid entry in Table of Contents
+
+To avoid an entry of a section or a chapter in the table of contents, we can use `\chapter*{...}` or `\section*{...}` i.e. we basically append a `*` symbol to the commands.
+
+## Special characters
+
+The special characters `!`, `@`, `*`, `(`, `)`, `-`, `+`, `=`, `?`, `[`, `]`, `/` can be written literally in the document.
+
+The following characters need to written with an escape character(`\`), else they will throw error or will display incorrectly. Some of them are `&`, `$`, `%`, `_`, `{`, `}`, `#`.
+
+## Dashes
+
+* Hyphen(-) is used in between two words.
+* En dash (`\textendash`) is mostly used when specifying range of pages, years, etc.
+* Em dash(`\textemdash`)(longer than En dash) is mostly used in place of parentheses or colon.
+
+## Quotes
+
+* \` in $\LaTeX$ represents the opening of quotes while ' represents the closing of quotes.
+
 ---
