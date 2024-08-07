@@ -10,12 +10,11 @@
 
 ## Environment
 
-* An environment is denoted as: `\begin{...}   \end{...}`
+* An environment is denoted as: `\begin{...} ...  \end{...}`
 * Example:
 ```tex
 \begin{landscape}
-
-
+	...
 \end{landscape}
 ```
 
