@@ -85,7 +85,7 @@
 
 <tr>
 <td>Total number of pages</td>
-<td><code>\usepackage{lastpage}<br>\pageref{LastPage}</code></td>
+<td><code>\usepackage{lastpage}</code><br><code>\pageref{LastPage}</code></td>
 </tr>
 
 </table>
