@@ -95,5 +95,6 @@
 
 * `\renewcommand{\headrulewidth}{Xpt}`.
 * `\renewcommand{\footrulewidth}{Xpt}`.
+* `X` denotes the width of the line.
 
 ---
