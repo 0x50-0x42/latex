@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage{lipsum}
+% \usepackage[landscape]{geometry}
+\usepackage{pdflscape}
+
+\begin{document}
+
+\section{title}
+\lipsum[1-2]
+
+\pagebreak % \newpage also works exactly like this
+\section{A random section in between}
+\lipsum[1-2]
+lorem ipsum \footnote{refer to the wiki artice for more information} some more help \footnote{contact 98xxx89078(this is just a random number)}
+
+\begin{landscape}
+    \section{second title}
+    \lipsum[1-2]
+\end{landscape}
+
+\lipsum[1-10] % generate 10 paragraphs(lorem ipsum....)
+\end{document}
