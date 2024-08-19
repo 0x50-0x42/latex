@@ -125,4 +125,12 @@ Here are the various font sizes:
 
 To look at the output of the above commands, see [doc2.pdf](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session1/doc2.pdf), and for the code, see [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session1/doc2.tex).
 
+There is something very important missing from `doc2.tex`.
+
+* When we use any of these commands(for font size) before any text(or word), it not only affects the target sentence/word, but also affects the sentences following the target sentence/word. So, if we want it to only affect the target sentence/word, then we must enclose the command and the target sentence/word within `{` and `}` as:
+
+```tex
+{\Large word} statement(s) following word, these won't be affect by the command because it and the target word are enclose within the curly braces.
+```
+
 ---
