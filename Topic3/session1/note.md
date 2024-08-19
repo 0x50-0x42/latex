@@ -35,7 +35,7 @@ Here are some font styles in $\LaTeX$:
 
 <tr>
 <td><code>\textrm{ ... }</code></td>
-<td><span style="font-family: serif;">Text</span></td>
+<td><span style="font-family: 'Times New Roman', Times, serif;">Text</span></td>
 </tr>
 
 <tr>
