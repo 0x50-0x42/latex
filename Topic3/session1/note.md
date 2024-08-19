@@ -130,7 +130,10 @@ There is something very important missing from `doc2.tex`.
 * When we use any of these commands(for font size) before any text(or word), it not only affects the target sentence/word, but also affects the sentences following the target sentence/word. So, if we want it to only affect the target sentence/word, then we must enclose the command and the target sentence/word within `{` and `}` as:
 
 ```tex
-{\Large word} statement(s) following word, these won't be affect by the command because it and the target word are enclose within the curly braces.
+{\Large word} statement(s) following word, these won't be affect by the command because it and the target word are enclosed within the curly braces.
 ```
+* We can also use `\normalsize` after the target word/sentence to restore the following statements back to their normal size(this is if we aren't using the curly braces around the command and the target word/sentence).
+
+See `doc1.tex` for the code and `doc1.pdf` for the output.
 
 ---
