@@ -58,8 +58,8 @@ Here are some font styles in $\LaTeX$:
 <td>Text<sub>text</sub></td>
 </tr>
 
-For outputs of commands from `\textsc{ ... }` to `\textsubscript{ ... }`, see [doc1.pdf](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session1/doc1.pdf) and for the commands, see [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session1/doc1.tex).
-
 </table>
+
+For outputs of commands from `\textsc{ ... }` to `\textsubscript{ ... }`, see [doc1.pdf](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session1/doc1.pdf) and for the commands, see [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session1/doc1.tex).
 
 ---
