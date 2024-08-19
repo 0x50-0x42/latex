@@ -1,7 +1,9 @@
 \documentclass{article}
 
+\usepackage{lipsum}
+
 \begin{document}
-	Unlike other \textbf{WYSIWYG editors}, the \emph{content is written in plain text} along with appropriate commands, thus, allowing the user to \underline{concentrate} on the content rather than the aesthetics (the way it looks). The TeX typesetting program which LaTeX uses, was designed such that anyone can create good quality material with less efforts.
+	Unlike other \textbf{WYSIWYG editors}, the \emph{content is written in plain text} along with appropriate commands, thus, allowing the user to \underline{concentrate} on the content rather than the aesthetics (the way it looks). The {\Large TeX} typesetting program which LaTeX uses, was designed such that anyone can create good quality material with less efforts.
 	
 	This text is in \textsc{Small Caps}.
 	
@@ -12,4 +14,10 @@
 	This is text\textsuperscript{superscript}.
 	
 	This is text\textsubscript{subscript}.
+	
+	\tiny
+	\lipsum[1-2]
+	
+	\normalsize
+	\lipsum[3-4]
 \end{document}
