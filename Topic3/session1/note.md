@@ -45,7 +45,7 @@ Here are some font styles in $\LaTeX$:
 
 <tr>
 <td><code>\texttt{ ... }</code></td>
-<td><span style="font-family: monospace;">Text</span></td>
+<td><pre>Text</pre></td>
 </tr>
 
 <tr>
