@@ -30,7 +30,7 @@ Here are some font styles in $\LaTeX$:
 
 <tr>
 <td><code>\textsc{ ... }</code></td>
-<td><small style="font-variant: small-caps;">Text</small></td>
+<td><span style="font-variant: small-caps;">Text</span></td>
 </tr>
 
 <tr>
