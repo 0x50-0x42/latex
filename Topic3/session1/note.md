@@ -30,17 +30,17 @@ Here are some font styles in $\LaTeX$:
 
 <tr>
 <td><code>\textsc{ ... }</code></td>
-<td><span style="font-variant: small-caps;">TEXT</span></td>
+<td><p><span style="font-variant: small-caps;">TEXT</span><p></td>
 </tr>
 
 <tr>
 <td><code>\textrm{ ... }</code></td>
-<td><span style="font-family: 'Times New Roman', Times, serif;">Text</span></td>
+<td><p><span style="font-family: 'Times New Roman', Times, serif;">Text</span></p></td>
 </tr>
 
 <tr>
 <td><code>\textsf{ ... }</code></td>
-<td><span style="font-family: Arial, Helvetica, sans-serif;">Text</span></td>
+<td><p><span style="font-family: Arial, Helvetica, sans-serif;">Text</span></p></td>
 </tr>
 
 <tr>
