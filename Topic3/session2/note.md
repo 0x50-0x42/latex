@@ -22,6 +22,7 @@
 ## Coloring the page
 
 * For coloring a whole page, use:
-	* `\pagecolor{yellow}{Text to be colored in yellow}`
+	* `\pagecolor{yellow}`, colors the whole page in yellow.
+* All the colors and the color combinations that were used `\textcolor{}{}` can also be used with `\pagecolor{}`.
 
 ---
