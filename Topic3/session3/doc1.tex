@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage{lipsum}
+\usepackage{ragged2e} % for \justify
+
+\begin{document}
+	\section{one}
+	\begin{flushleft}
+		\lipsum[2-2]
+	\end{flushleft}
+	
+	\section{two}
+	\begin{center}
+		\lipsum[2-2]
+	\end{center}
+	
+	\section{three}
+	\begin{flushright}
+		\lipsum[2-2]
+	\end{flushright}
+
+\pagebreak
+
+\centering  % equivalent to \begin{center} \end{center}
+\lipsum[1-1]
+
+\flushleft % equivalent to \begin{flushleft} \end{flushleft}
+\lipsum[2-2]
+
+\flushright % equivalent to \begin{flushright} \end{flushright}
+\lipsum[3-3]
+
+\justify % the default alignment of text
+\lipsum[4-4]
+\end{document}
