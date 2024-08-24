@@ -37,4 +37,6 @@ When we simply write some text on a new page in article, or book or report, the 
 	* `\begin{spacing}{X}`<br>`...`<br>`\end{spacing}`
 * For using these commands and environments, we will need the `setspace` package.
 
+See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session4/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session4/doc2.tex), [doc3.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session4/doc3.tex) and [doc4.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session4/doc4.tex).
+
 ---
