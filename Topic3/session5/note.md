@@ -87,7 +87,7 @@
 	% and so on
 \end{enumerate}
 ```
-* The list items will be numbered as `(A) subitem1`<br>`(B) subitem2`.<br> Notice that the `()` have also been included.
+* The list items will be numbered as <br>`(A) subitem1`<br>`(B) subitem2`.<br> Notice that the `()` have also been included.
 
 ## Change bullet style
 * To change the style of the bullets in the unordered list, for that we need the `amssymb` package.
