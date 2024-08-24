@@ -113,4 +113,6 @@
 * Example:
 	* `\renewcommand{\labelitemiv}{$\diamond$}`
 
+See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session5/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session5/doc2.tex) and [doc3.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session5/doc3.tex).
+
 ---
