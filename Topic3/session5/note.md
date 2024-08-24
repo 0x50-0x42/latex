@@ -113,6 +113,14 @@
 * Example:
 	* `\renewcommand{\labelitemiv}{$\diamond$}`
 
+## Possible errors
+* Some possible errors that might occur while creating lists:
+	* Missing item:
+		* We write our itemize or enumerate environments, but we do not write any item in it.
+		* Example:<br>`\begin{itemize}`<br><br>`\end{itemize}`<br>
+	* Nesting lists more than 4 levels:
+		* There is a limitation of 4 levels nesting.
+
 See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session5/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session5/doc2.tex) and [doc3.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session5/doc3.tex).
 
 ---
