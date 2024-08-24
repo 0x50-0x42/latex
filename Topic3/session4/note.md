@@ -35,5 +35,6 @@ When we simply write some text on a new page in article, or book or report, the 
 	* `\spacing{X}`
 * Custom spacing for a certain part:
 	* `\begin{spacing}{X}`<br>`...`<br>`\end{spacing}`
+* For using these commands and environments, we will need the `setspace` package.
 
 ---
