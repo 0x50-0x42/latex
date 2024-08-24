@@ -90,7 +90,7 @@
 * The list items will be numbered as <br>`(A) subitem1`<br>`(B) subitem2`.<br> Notice that the `()` have also been included.
 
 ## Change bullet style
-* To change the style of the bullets in the unordered list, for that we need the `amssymb` package.
+* To change the style of the bullets in the unordered list, we need the `amssymb` package.
 * Style:
 	* `\blacksquare`
 	* `\square`
