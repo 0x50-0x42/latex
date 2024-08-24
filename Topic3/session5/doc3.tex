@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage{enumerate}
+\usepackage{amssymb}
+
+\begin{document}
+	\renewcommand{\labelitemi}{$\diamond$} % for the outer unordered list
+	\renewcommand{\labelitemii}{$\blacksquare$} % for unordered list nested inside the outer unordered list
+	\section{Standard Colors}
+	% unordered list
+	\begin{itemize}
+		\item Red
+		\begin{itemize} % nested unordered list
+			\item Brick red
+			\item Post office red
+			\item Blood red
+		\end{itemize}
+		\item Blue
+		\begin{enumerate} % nested ordered list
+			\item Sky blue
+			\item Royal blue
+		\end{enumerate}
+		\item Green
+		\item Yellow
+		\item Black
+	\end{itemize}
+	
+	\section{More Colors}
+	% ordered list
+	\begin{enumerate}
+		\item Maroon
+		\item Cyan
+		\item Brown
+		\item Plum
+	\end{enumerate}
+	
+	\section{Description List}
+	% description list
+	\begin{description}
+		\item[Input Devices:] mouse, keyboard
+		\item[Output Devices:] monitor, printer
+	\end{description}
+\end{document}
