@@ -67,6 +67,6 @@ Each step of the solution will also contain equation numbers. To remove the from
 \end{align}
 ```
 
-See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc1.tex).
+See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc2.tex), [doc3.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc3.tex), [doc4.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc4.tex) and [doc5.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc5.tex).
 
 ---
