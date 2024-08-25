@@ -21,4 +21,6 @@
 * Syntax:
 	* `\sum_{min}^{max}`
 
+See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc1.tex).
+
 ---
