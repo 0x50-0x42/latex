@@ -1,0 +1,24 @@
+\documentclass{article}
+
+\begin{document}
+	\begin{tabular}{|c|l|l|r|}
+		\hline
+		No. & Item & Quantity & Price \\
+		\hline
+		1 & Pen & 3 & 10 \\
+		\hline
+		2 & Pencil & 3 & 5 \\
+		\hline
+	\end{tabular}
+
+
+	\begin{tabular}{|c|l|l|r|}
+		\hline
+		No. & Item & Quantity & Price \\
+		\hline
+		1 & Pen & 3 & 10 \\
+		\cline{1-2} \cline{4-4} % draws horizontal lines in columns 1, 2 and 4
+		2 & Pencil &  & 5 \\
+		\hline
+	\end{tabular}
+\end{document}
