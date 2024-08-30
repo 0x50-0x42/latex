@@ -2,7 +2,7 @@
 
 * Web-related icons are also supported by $\LaTeX$ via the `fontawesome` package.
 
-I faced some problems while compiling my text document in TeXstudio, it said `fontawesome.sty` not found.
+I faced some problems while compiling my tex document in TeXstudio, it said `fontawesome.sty` not found.
 
 So I googled and found that it will resolved on running:
 ```bash
