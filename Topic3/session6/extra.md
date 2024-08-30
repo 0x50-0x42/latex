@@ -29,5 +29,7 @@ After this was resolved, I then opened TeXstudio again and ran the $\LaTeX$ code
 
 * [https://www.tug.org/FontCatalogue/](https://www.tug.org/FontCatalogue/), click the type of font that you wish to use, followed by the name of the font. Some more information is displayed i.e. which packages to be included, the command for styling the content, etc.
 
+See: [doc6.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc6.tex) and [doc7.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic3/session6/doc7.tex).
+
 
 ---
