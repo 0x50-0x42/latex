@@ -1,4 +1,4 @@
-# Tables and images
+# Tables
 
 * One can create a table using the `tabular` environment:
 	* `\begin{tabular}{cols}`<br>`...`<br>`\end{tabular}`
