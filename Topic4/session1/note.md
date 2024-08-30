@@ -31,7 +31,7 @@
 	2 & Pencil & 5 \\
 \end{tabular}
 ```
-Here, the first column is $1$cm in width, the second column is $3$cm in width and the third column is $2$cm in width.
+Here, the first column is $1$ cm in width, the second column is $3$ cm in width and the third column is $2$ cm in width.
 
 See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic4/session1/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic4/session1/doc2.tex).
 
