@@ -1,0 +1,25 @@
+\documentclass{article}
+
+\usepackage{arydshln}
+
+\begin{document}
+	\begin{tabular}{|c|l|l|r|}
+		\hline
+		No. & Item & Quantity & Price \\
+		\hline
+		1 & Pen & 3 & 10 \\
+		\cline{1-2} \cline{4-4} % draws horizontal lines in columns 1, 2 and 4
+		2 & Pencil &  & 5 \\
+		\hline
+	\end{tabular}
+
+	\begin{tabular}{:c:l:l:r:}
+		\hdashline[2pt/1pt]
+		No. & Item & Quantity & Price \\
+		\hdashline[2pt/1pt]
+		1 & Pen & 3 & 10 \\
+		\cdashline{1-2}[1pt/2pt] \cdashline{4-4}[1pt/2pt] % draws horizontal lines in columns 1, 2 and 4
+		2 & Pencil &  & 5 \\
+		\hdashline[2pt/1pt]
+	\end{tabular}
+\end{document}
