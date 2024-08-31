@@ -17,6 +17,7 @@
 	\cline{1-2}\cline{4-4}
 	2 & Pencil & & 5 \\
 	\hline
+\end{tabular}
 ```
 
 	* Here, `2` means the number of rows that will be merged, in this table it's the $2^{nd}$ and the $3^{rd}$ rows.
