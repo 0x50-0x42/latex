@@ -1,0 +1,49 @@
+\documentclass{article}
+
+\usepackage{multirow}
+
+\begin{document}
+	% Note the differences between the two tables:
+	
+	
+		\begin{tabular}{|c|l|l|r|}
+		\hline
+		\multicolumn{4}{c}{Stationary items} \\ % This is one whole row
+		\hline
+		No. & Item & Quantity & Price \\
+		\hline
+		1 & Pen & \multirow{2}{*}{3} & 10 \\
+		\cline{1-2}\cline{4-4}
+		2 & Pencil & & 5 \\
+		\hline
+	\end{tabular}
+
+\vspace{10pt}
+
+	\begin{tabular}{|c|l|l|r|}
+		\hline
+		\multicolumn{4}{|c|}{Stationary items} \\ % This is one whole row
+		\hline
+		No. & Item & Quantity & Price \\
+		\hline
+		1 & Pen & \multirow{2}{*}{3} & 10 \\
+		\cline{1-2}\cline{4-4}
+		2 & Pencil & & 5 \\
+		\hline
+	\end{tabular}
+
+\vspace{10pt}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|l|l|r|}
+	\hline
+	\multicolumn{4}{|c|}{Stationary items} \\
+	\hline
+	No. & Item & Quantity & Price \\
+	\hline
+	1 & Pen & \multirow{2}{*}{3} & 10 \\
+	\cline{1-2}\cline{4-4}
+	2 & Pencil & & 5 \\
+	\hline
+\end{tabular}
+\end{document}
