@@ -28,6 +28,7 @@
 	* `TotalColumns` means number of columns to be merged.
 	* `Alignment` means of the alignment of the cell content i.e. `l`, `r` or `c`.
 	* `actual content` means the actual content that will be displayed in the column.
+
 * We can adjust the spacing of the table using the `\arraystretch` command as:
 	* `\renewcommand{\arraystretch}{value}`.
 	* `value` is $1$ by default.
