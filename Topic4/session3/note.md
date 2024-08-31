@@ -20,9 +20,9 @@
 \end{tabular}
 ```
 
-	* Here, `2` means the number of rows that will be merged, in this table it's the $2^{nd}$ and the $3^{rd}$ rows.
-	* `*` means the natural width of the cell.
-	* `3` is the cell content that will be displayed in the table.
+* Here, `2` means the number of rows that will be merged, in this table it's the $2^{nd}$ and the $3^{rd}$ rows.
+* `*` means the natural width of the cell.
+* `3` is the cell content that will be displayed in the table.
 * We don't need any packages to merge columns, we just use:
 	* `\multcolumn{TotalColumns}{Alignment}{actual content}`.
 	* `TotalColumns` means number of columns to be merged.
