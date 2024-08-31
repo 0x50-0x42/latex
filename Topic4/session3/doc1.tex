@@ -1,0 +1,25 @@
+\documentclass{article}
+
+\usepackage{multirow}
+
+\begin{document}
+	\begin{tabular}{|c|l|l|r|}
+		\hline
+		No. & Item & Quantity & Price \\
+		\hline
+		1 & Pen & 3 & 10 \\
+		\cline{1-2}\cline{4-4}
+		2 & Pencil & & 5 \\
+		\hline
+	\end{tabular}
+
+\begin{tabular}{|c|l|l|r|}
+	\hline
+	No. & Item & Quantity & Price \\
+	\hline
+	1 & Pen & \multirow{2}{*}{3} & 10 \\
+	\cline{1-2}\cline{4-4}
+	2 & Pencil & & 5 \\
+	\hline
+\end{tabular}
+\end{document}
