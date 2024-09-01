@@ -1,6 +1,6 @@
 # Table environment
 
-* We can use the `table` environment to add captions, to align the table and also to position the table.
+* We can use the `table` environment to add captions, align the table and also position the table.
 * Position:
 	* `t` $\rightarrow$ top.
 	* `b` $\rightarrow$ bottom.
