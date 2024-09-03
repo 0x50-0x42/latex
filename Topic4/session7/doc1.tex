@@ -1,0 +1,21 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+
+\begin{document}
+	\section{Original image}
+	\includegraphics{plane.jpg} % original image
+	
+	\section{Scaled image}
+	\includegraphics[scale=0.5]{plane.jpg} % scaled image
+	
+	\section{Rotated image}
+	\includegraphics[angle=180]{plane.jpg} % rotate the image by 180 degrees
+	
+	
+	\section{Cropped image}
+	\includegraphics[clip=true, trim=2mm 13mm 1mm 13mm]{plane.jpg}
+	
+	\section{Scaled image-double the original size}
+	\includegraphics[scale=2]{plane.jpg}
+\end{document}
