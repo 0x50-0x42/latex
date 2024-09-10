@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+
+\begin{document}
+	\setlength{\fboxsep}{15pt}
+	
+	\section{Scaled bordered image}
+	\fbox{\includegraphics[scale=0.2]{bird.png}}
+	
+	\setlength{\fboxrule}{10pt}
+	\section{Rotated bordered image}
+	\fbox{\includegraphics[scale=0.2, angle=60]{bird.png}}
+	
+	\section{Cropped bordered image}
+	\includegraphics[scale=0.2, clip=true, trim=1mm 1mm 1mm 1mm]{bird.png}
+	
+	\section{Original image}
+	\includegraphics{bird.png}
+\end{document}
