@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+
+\begin{document}
+	
+	\listoffigures
+	\pagebreak
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.5in]{parrot.jpeg}
+		\caption{Original image}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.5in, angle=90]{parrot.jpeg}
+		\caption{Rotated by 90 degrees}
+	\end{figure}
+	
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.5in, angle=180]{parrot.jpeg}
+		\caption{Rotated by 180 degrees}
+	\end{figure}
+\end{document}
