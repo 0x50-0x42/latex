@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage{caption, subcaption}
+
+\usepackage{graphicx}
+
+
+\begin{document}
+	
+	\listoffigures
+	\pagebreak
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.5in]{parrot.jpeg}
+		\caption{Original image}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.5in, angle=90]{parrot.jpeg}
+		\caption{Rotated by 90 degrees}
+	\end{figure}
+	
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.5in, angle=180]{parrot.jpeg}
+		\caption{Rotated by 180 degrees}
+	\end{figure}
+
+\pagebreak
+
+
+	\begin{figure}
+		\centering
+		\begin{subfigure}{0.3\textwidth} % textwidth denotes the width of the text on the page and 0.45 denotes that figure is going to take space which is less than the width of the text on the page. It's read as "0.45 of the textwidth"
+			\centering
+			\includegraphics[width=\textwidth]{parrot.jpeg}
+			\caption{Original image}
+		\end{subfigure}
+
+	
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth, angle=90]{parrot.jpeg}
+		\caption{Rotated by 90 degrees}
+	\end{subfigure}
+
+	\begin{subfigure}{0.3\textwidth}
+	\centering
+	\includegraphics[width=\textwidth, angle=90]{parrot.jpeg}
+	\caption{Rotated by 90 degrees}
+\end{subfigure}
+
+		\caption{Image of a parrot}
+	\end{figure}
+
+
+\end{document}
