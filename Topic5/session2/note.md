@@ -30,6 +30,6 @@ Where, `here` will be a clickable text and on clicking it we will be redirected 
 * Usually used when the link is too long or you want to display some other information rather than the link.
 
 <ins>Note</ins>:
-The url included using `\url{}` command becomes <em>clickable</em> only when we include the `hyperref` package. Run [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session2/doc1.tex) and find out.
+The url included using `\url{}` command becomes <em>clickable</em> only when we include the `hyperref` package. Run [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session2/doc1.tex) and [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session2/doc2.tex) and find out.
 
 ---
