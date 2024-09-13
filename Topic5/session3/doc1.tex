@@ -1,0 +1,66 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{lipsum}
+
+
+\begin{document}
+	\section{Overview}
+	\paragraph{}
+	
+	Section \ref{subsec:def} covers some notations used in this article. Section \ref{subsec:who} addresses which users should read it. The section, \nameref{subsec:reqs} on page number \pageref{subsec:reqs} points to what the users need. Finally the table \ref{tbl:items} on page number \pageref{tbl:items} lists out the different items available in the system.
+	
+	\section{Introduction}
+	\label{sec:intro}
+	\paragraph{}
+	
+	\lipsum[1-2]
+	
+	\subsection{Definition}
+	\label{subsec:def}
+	\paragraph{}
+	
+	\lipsum[1-2]
+	
+	\subsection{Audience}
+	\label{subsec:who}
+	\paragraph{}
+	
+	\lipsum[1-2]
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{cc}
+			\hline
+			No. & Item\\
+			\hline
+			1 & Pen\\
+			\hline
+			2 & Pencil\\
+			\hline
+			3 & Scale\\
+			\hline
+		\end{tabular}
+	
+	\caption{Items}
+	\label{tbl:items}
+	\end{table}
+
+\section{Specifications}
+\label{sec:specs}
+\paragraph{}
+
+\lipsum[1-2]
+
+\subsection{Requirements}
+\label{subsec:reqs}
+\paragraph{}
+
+\lipsum[1-2]
+
+\subsection{Functional}
+\label{subsec:func}
+\paragraph{}
+
+\lipsum[1-2]
+\end{document}
