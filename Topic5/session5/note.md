@@ -89,6 +89,6 @@ where `Style` can be `plain`, `alpha`, `unsrt`, `acm`, etc. and the `filename` i
 \end{document}
 ```
 
-See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/doc2.tex), [biblio.bib](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/biblio.bib).
+See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/doc2.tex), [doc3.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/doc3.tex), [biblio.bib](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic5/session5/biblio.bib)
 
 ---
