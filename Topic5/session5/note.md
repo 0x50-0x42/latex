@@ -62,7 +62,7 @@
 \bibliographystyle{Style}
 \bibliography{filename}
 ```
-where `Style` can be `plain`, `alpha`, `unsrt` or `acm` and the `filename` is the name of the bib file.
+where `Style` can be `plain`, `alpha`, `unsrt`, `acm`, etc. and the `filename` is the name of the bib file.
 
 * To include reference without citing, use: `\nocite{KEY}`.
 
