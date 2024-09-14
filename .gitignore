@@ -14,3 +14,5 @@ LaTeX\ for\ Students\,\ Engineers\,\ and\ Scientists\ -\ Session06_PaperSize_Mar
 *.idx
 *.ind
 *.ilg
+*.bbl
+*.blg
