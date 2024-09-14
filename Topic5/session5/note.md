@@ -6,7 +6,7 @@
 
 * We put other citations in the bib file.
 
-<strong><ins>Example-1</ins>:</strong>
+<strong><ins>Example-1</ins>: citing papers published in conference proceedings</strong>
 ```tex
 @inproceedings{KEY,
 	title={},
