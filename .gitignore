@@ -11,3 +11,6 @@ LaTeX\ for\ Students\,\ Engineers\,\ and\ Scientists\ -\ Session06_PaperSize_Mar
 *.lot
 *.lof
 *.out
+*.idx
+*.ind
+*.ilg
