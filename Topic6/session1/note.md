@@ -13,6 +13,9 @@
 	\begin{frame}[t|c|b]{Frame Title}
 		...
 	\end{frame}
+	...
+	...
+\end{document}
 ```
 The arguments `t`, `c` and `b` denote the alignment of the text on the slide(it's optional). The `Frame Title` denotes the title of the frame(this is also optional).
 
