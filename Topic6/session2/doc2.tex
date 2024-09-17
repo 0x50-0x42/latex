@@ -1,0 +1,39 @@
+\documentclass{beamer}
+
+\usetheme{Berkeley}
+\usecolortheme{default}
+
+\begin{document}
+	\begin{frame}{Basic Block}
+		\begin{block}{Information}
+			This is information.
+		\end{block}
+		
+		\begin{alertblock}{Alert}
+			This is alert text.
+		\end{alertblock}
+		
+		\begin{example}
+			This is an example.
+		\end{example}
+	\end{frame}
+	
+	\begin{frame}{Columns}
+		\begin{columns}
+			\column{0.3\textwidth}               % column no. 1
+			\begin{block}{Information}
+				This is information.
+			\end{block}
+			
+			\column{0.3\textwidth}               % column no. 2
+			\begin{alertblock}{Alert}
+				This is alert text.
+			\end{alertblock}
+			
+			\column{0.3\textwidth}               % column no. 3
+			\begin{example}
+				This is an example.
+			\end{example}
+		\end{columns}
+	\end{frame}
+\end{document}
