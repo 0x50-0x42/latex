@@ -68,9 +68,9 @@
 
 ---
 
-* We can set the text <em>to be displayed</em> to light grey color using: `\setbeamercovered{transparent}`.
+* We can set the <em>text to be displayed</em> to light grey color using: `\setbeamercovered{transparent}`.
 * We can use this command for slides of our choice.
-* We can also use `\setbeamercovered{invisible}` if donot want <em>to the text to be displayed</em> to be visible.
+* We can also use `\setbeamercovered{invisible}` if we donot want the <em>text to be displayed</em> to be visible.
 
 See: [doc1.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic6/session3/doc1.tex), [doc2.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic6/session3/doc2.tex), [doc3.tex](https://github.com/0x50-0x42/latex/blob/LaTeX/Topic6/session3/doc3.tex).
 
