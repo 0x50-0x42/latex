@@ -25,7 +25,7 @@
 * Displays items in specified sequence.
 * Syntax:
 	* `<No.->`
-	* `<No>` $\rightarrow$ display the item only in slide number `No`.
+	* `<No.>` $\rightarrow$ display the item only in slide number `No.`.
 
 ---
 
@@ -63,7 +63,7 @@
 * Similar to overlay.
 * Displays text in specified sequence.
 * Used for normal text, tables, etc.
-* `\onslide<No.->`.
+* `\onslide<No.->`, where `No.` is a sequence number.
 * This command should be written <em>prior</em> to the items in that row.
 
 ---
