@@ -1,0 +1,66 @@
+\documentclass{beamer}
+
+\usetheme{Berkeley}
+\usecolortheme{default}
+
+\title{Text animation}
+\author{Priyanuj}
+\date{}
+
+\begin{document}
+	\begin{frame}
+		\maketitle
+	\end{frame}
+	
+	\section{Colors}
+	\begin{frame}{Colors}
+		\begin{itemize}
+			\item red \pause
+			\item blue \pause
+			\item green
+		\end{itemize}
+	\end{frame}
+
+	\section{Animals}
+	\begin{frame}{Animals}
+		\begin{enumerate}
+			\item<1-> lion
+			\item<3> tiger
+			\item<4-> elephant
+			\item<2-> deer
+			\item<5-> monkey
+		\end{enumerate}
+	\end{frame}
+
+	\section{Blocks}
+	\begin{frame}{Blocks}
+		\begin{block}{Basic block}
+			This is a basic block.
+		\end{block}
+		\pause
+		\begin{alertblock}{Alert block}
+			This is an alert block.
+		\end{alertblock}
+		\pause
+		\begin{example}
+			This is an example block.
+		\end{example}
+	\end{frame}
+
+	\section{Items}
+	\begin{frame}{Items}
+		\begin{table}[h]
+			\begin{tabular}{cc}
+				\hline
+				No. & Item\\
+				\hline
+				1 & Pen\\
+				2 & Pencil\\
+				3 & Scale\\
+				4 & Eraser\\
+				\hline
+			\end{tabular}
+			\caption{Stationary items}
+		\end{table}
+	\end{frame}
+\end{document}
