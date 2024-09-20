@@ -1,0 +1,22 @@
+\documentclass{article}
+
+\usepackage{multirow}
+
+\begin{document}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\multicolumn{3}{|c|}{Whole Sale Items}\\
+			\hline
+			Item & Qty & Cost\\
+			\hline
+			\multirow{3}{*}{Pencil 2B} & 10 & 50\\
+			\cline{2-3}
+			& 20 & 70\\
+			\cline{2-3}
+			& 50 & 100\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{document}
