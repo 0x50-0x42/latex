@@ -80,7 +80,7 @@
 
 <tr>
 <td>Section number</td>
-<td><code>thesection</code></td>
+<td><code>\thesection</code></td>
 </tr>
 
 <tr>
