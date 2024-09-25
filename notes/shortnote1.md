@@ -10,7 +10,7 @@ ${<your equation>}$
 * `\ln` gives us a natural log in $\LaTeX$ math mode.
 * For roots(in math mode):
 	* `\sqrt{<radicand>}` &rarr; displays <em>square root of <code>radicand</code></em>.
-	* `\sqrt[<index>]{<radicand>}` &rarr; displays <em><code><index></code>-th root of <code>radicand</code></em>.
+	* `\sqrt[<index>]{<radicand>}` &rarr; displays <em><code>index</code>-th root of <code>radicand</code></em>.
 * Fraction(in math mode):
 	* `\frac{<numerator>}{<denominator>}`
 * `\displaystyle` is used with inline math mode(where mathematical expressions are written within `$....$`). It displays inline math as if it were displayed in display mode(where mathematical expressions are written within `$$...$$`).
