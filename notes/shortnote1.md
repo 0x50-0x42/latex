@@ -5,7 +5,13 @@
 ${<your equation>}$
 ```
 * We will need to put those braces if we want the equation to be in one line.
+
+---
+
 * `\ldots` displays three dots(`...`) for a sequence.
+
+---
+
 * Put a backslash before the trignometric function names in math mode.
 * `\ln` gives us a natural log in $\LaTeX$ math mode.
 * For roots(in math mode):
@@ -14,6 +20,9 @@ ${<your equation>}$
 * Fraction(in math mode):
 	* `\frac{<numerator>}{<denominator>}`
 * `\displaystyle` is used with inline math mode(where mathematical expressions are written within `$....$`). It displays inline math as if it were displayed in display mode(where mathematical expressions are written within `$$...$$`).
+
+---
+
 * For getting some more vertical space after a newline(`\\`) use `[<X><unit>]` after `\\` as:
 
 ```tex
@@ -29,3 +38,5 @@ ${<your equation>}$
 ```
 * The amount of space by which the first paragraph is indented can be controlled by using `\parindent <X>px` which means <em>indent the paragraph by <code>X</code> points</em>.
 * Write this in the preamble which is the section before `\begin{document}`.
+
+---
