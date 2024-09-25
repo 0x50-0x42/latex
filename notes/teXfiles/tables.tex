@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage{float}
+
+\begin{document}
+\begin{tabular}{|c||c|c|c|}
+\hline
+$x$ & 1 & 2 & 3\\
+\hline
+$f(x)$ & 10 & 11 & 12\\
+\hline
+\end{tabular}
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c||c|c|c|}
+\hline
+$x$ & 1 & 2 & 3\\
+\hline
+$f(x)$ & $\frac{1}{2}$ & 11 & 12\\
+\hline
+\end{tabular}
+\caption{This is a table containing some values}
+\end{table}
+
+% handling long text in a table
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|l|p{3in}|}
+\hline
+$f(x)$ & $f'(x)$\\
+\hline
+$x>0$ & The function $f(x)$ is increasing.The function $f(x)$ is increasing.The function $f(x)$ is increasing.The function $f(x)$ is increasing.The function $f(x)$ is increasing.\\
+\hline
+\end{tabular}
+\caption{Relationship between $f(x)$ and $f'(x)$}
+\end{table}
+
+\end{document}
