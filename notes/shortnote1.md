@@ -27,5 +27,5 @@ ${<your equation>}$
 ....
 ....
 ```
-* Another way to disable paragraph indentation is to use `\paraindent <X>pt` which means <em>indent the paragraph by <code>X</code> points</em>.
+* The amount of space by which the first paragraph is indented can be controlled by using `\paraindent <X>pt` which means <em>indent the paragraph by <code>X</code> points</em>.
 * Write this in the preamble which is the section before `\begin{document}`.
