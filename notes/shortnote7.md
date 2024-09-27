@@ -51,7 +51,7 @@ Here, our custom command `\boldItalic` takes a single argument and will be used 
 ```tex
 This \LaTeX session is \boldItalic{amazing}.
 ```
-Only a sigle pair of `{ }` have been used with `\boldItalic`. The number of `{ }` pairs used with a custom command denotes the number of arguments that that custom command takes.
+Only a single pair of `{ }` have been used with `\boldItalic`. The number of `{ }` pairs used with a custom command denotes the number of arguments that that custom command takes.
 * Example:
 ```tex
 \newcommand{\intro}[2]{Hello and welcome to this \emph{#1} \LaTeX \textbf{#2}}
