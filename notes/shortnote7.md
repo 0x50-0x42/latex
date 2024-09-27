@@ -61,7 +61,7 @@ Here, the custom command `\intro` will be used as:
 \intro{extra}{session}
        % #1      #2
 ```
-`extra` will be emphasized and `session` will appear bold. So, whatever text we put within `{ }` of the custom command are all arguments. `#1`, `#2`, are basically argument calls that will basically get replaced by the text placed within the corresponding number of braces of the custom command.
+`extra` will be emphasized and `session` will appear bold. So, whatever text we put within `{ }` of the custom command are all arguments. `#1`, `#2`, are basically argument calls that will get replaced by the text placed within the corresponding number of braces of the custom command.
 * Click [here](https://waterprogramming.wordpress.com/2021/10/05/make-latex-easier-with-custom-commands/) to see more.
 
 ---
