@@ -8,6 +8,7 @@
 <p align="center">
 OR
 </p>
+
 ```tex
 \documentclass[10pt, letterpaper]{article}
 ```
