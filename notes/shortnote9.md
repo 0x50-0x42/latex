@@ -73,7 +73,7 @@ $\vec{a}$
 ```
 This produces the following output:
 
-<img src="images/vector.png" width="5%" height="5%">
+<img src="images/vector.png" width="10%" height="10%">
 
 * To write angle brackets in math mode, we use the commands `\langle` and `\rangle`.
 
