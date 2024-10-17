@@ -8,19 +8,33 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{float}
+\usepackage{courier}
+\usepackage{url}
 
 
 \newcommand{\bold}[1]{\textbf{#1}}
 \newcommand{\italic}[1]{\textit{#1}}
 
 \pagestyle{fancy}
-
-\fancyhead[L]{}
-
 \pagenumbering{roman}
+
+\fancyhead[RE,LO]{\textsc{\leftmark}}
+\fancyhead[LE,RO]{}
+\fancyfoot[C]{}
+\fancyfoot[LE,RO]{Page \thepage\ of \pageref{LastPage}}
+
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 
 \renewcommand{\headrulewidth}{2pt}
 \renewcommand{\footrulewidth}{2pt}
+
+
+\lstset{
+	basicstyle=\small\ttfamily,
+	showstringspaces=false
+}
 
 \begin{document}
 
@@ -40,23 +54,22 @@
 		\end{center}
 	\end{titlepage}
 	
+	\pagestyle{plain}
 	\tableofcontents
+	\lstlistoflistings
 	
 	\chapter{Introduction}
 	\label{ch:ch1}
+	\pagestyle{fancy}
 	\setcounter{page}{1}
 	\pagenumbering{arabic}
-	\fancyhead[L]{\leftmark}
-	\fancyhead[R]{\rightmark}
-	\fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
-	\fancyfoot[C]{}
 	\paragraph{}
 	
 	The \emph{tikz} package is used when we want to draw some diagrams in \LaTeX.
 	
 	In order to use it, we first need to include it using the the \lstinline|\usepackage{}| command like so:
 	
-\begin{lstlisting}[frame=tlBR]
+\begin{lstlisting}[frame=tlBR, breaklines=true, caption=Format, label=lst:lst0]
 \documentclass{.....}
 ....
 ....
@@ -69,7 +82,7 @@
 	
 	To be able to draw using this package, we need to use an environment called \lstinline|tikzpicture| like so:
 	
-\begin{lstlisting}[frame=tlBR]
+\begin{lstlisting}[frame=tlBR, breaklines=true, caption=Syntax, label=lst:lst1]
 \begin{tikzpicture}
 % write your code here
 \end{tikzpicture}
@@ -81,7 +94,7 @@
 
 To draw a simple line, use the following command:
 
-\begin{lstlisting}[frame=tlBR]
+\begin{lstlisting}[frame=tlBR, breaklines=true, caption=Draw a simple line, label=lst:lst2]
 \begin{tikzpicture}
 	\draw(0,0)--(3,3);
 \end{tikzpicture}
@@ -100,15 +113,15 @@ Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/simple
 
 Now, we will use the same code that we used in \bold{\nameref{sec:sec1}}, but will be longer now.
 
-\begin{lstlisting}[frame=tlBR]
+\begin{lstlisting}[frame=tlBR, breaklines=true, caption=Draw a zig-zag line, label=lst:lst3]
 \begin{tikzpicture}
 	\draw(0,0)--(1,1)--(2,0)--(3,1)--(4,0)--(5,1)--(6,0);
 \end{tikzpicture}
 \end{lstlisting}
 
-Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/zig_zag.tex}{code}.
+Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/zig_zag.tex}{\textcolor{blue}{code}}.
 
-Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/zig_zag.pdf}{output}.
+Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/zig_zag.pdf}{\textcolor{blue}{output}}.
 
 Notice the \emph{semicolon} being used at the end.
 
@@ -117,7 +130,7 @@ Notice the \emph{semicolon} being used at the end.
 
 A triangle is a closed figure, so we need to use an extension \lstinline|--cycle| to close the figure. Basically it will draw a line from the last coordinate to the first coordinate, thus adding the last side to the figure.
 
-\begin{lstlisting}[frame=tlBR]
+\begin{lstlisting}[frame=tlBR, breaklines=true, caption=Draw a triangle, label=lst:lst4]
 \begin{tikzpicture}
 	\draw(0,0)--(3,0)--(3,3)--cycle;
 \end{tikzpicture}
@@ -125,8 +138,8 @@ A triangle is a closed figure, so we need to use an extension \lstinline|--cycle
 
 Notice that we first join $(0,0)$ with $(3,0)$ and then we join $(3,0)$ with $(3,3)$. Finally, we use \lstinline|--cycle| to join $(3,3)$ with $(0,0)$ which eventually forms a triangle.
 
-Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/triangle.tex}{code}.
+Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/triangle.tex}{\textcolor{blue}{code}}.
 
-Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/triangle.pdf}{output}.
+Here's the \href{https://github.com/0x50-0x42/latex/blob/LaTeX/Tikz/codes/triangle.pdf}{\textcolor{blue}{output}}.
 
 \end{document}
