@@ -1,0 +1,45 @@
+\documentclass{book}
+
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\usepackage{courier}  % for a monospaced font similar to that of Verbatim's
+\usepackage{arydshln} % for dashed borders
+\usepackage{float}
+\usepackage{url}
+\usepackage[bottom]{footmisc}
+
+
+\pagestyle{fancy}
+\pagenumbering{roman}
+
+\fancyhead[RE,LO]{\textsc{\leftmark}}
+\fancyhead[LE,RO]{}
+\fancyfoot[C]{}
+
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+
+\lstset{
+	basicstyle=\small\ttfamily,
+	showstringspaces=false
+}
+
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			content...
+		\end{center}
+	\end{titlepage}
+
+	\chapter{}
+	\paragraph{}
+\end{document}
