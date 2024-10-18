@@ -10,7 +10,7 @@ I found the solution from [here](https://www.reddit.com/r/LaTeX/comments/10m0a04
 
 # New problem
 
-After using `twoside` with the `article` class, I found that I encounter this problem:
+After using `twoside` with the `article` class, I encountered this problem:
 
 <img src="https://github.com/0x50-0x42/latex/blob/LaTeX/practicalNote/images/ss1.png" width="50%" height="50%">
 
