@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\usepackage[twoside]{fancyhdr}
+\usepackage{amssymb}  % for changing bullet style
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{courier}
+\usepackage{listings}
+\usepackage{lastpage}
+\usepackage[bottom]{footmisc}
+\usepackage[dvipsnames]{xcolor}
+
+\lstset{
+	basicstyle=\small\ttfamily,
+	breaklines=true,
+	showstringspaces=false
+}
+
+\setlength{\fboxrule}{5pt}
+
+\pagestyle{fancy}
+\pagenumbering{roman}
+
+\fancyhead[R]{\textsc{\rightmark}}
+\fancyhead[L]{}
+\fancyfoot[ER,LO]{Page \thepage\ of \pageref{LastPage}}
+\fancyfoot[C]{}
+
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+
+
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			content...
+		\end{center}
+	\end{titlepage}
+
+\pagestyle{plain}
+
+\tableofcontents
+
+\pagebreak
+
+\listoffigures
+
+\pagebreak
+
+\lstlistoflistings
+\end{document}
