@@ -1,0 +1,61 @@
+\documentclass[extrafontsizes,25pt]{memoir}
+
+\usepackage{background}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{svg}
+\usepackage{tikz}
+\usepackage{aurical}
+\usepackage{pdflscape}
+\usepackage{tgchorus}
+\usepackage{miama}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+
+
+\pagestyle{fancy}
+
+\fancyhead[L]{\includegraphics[width=35mm]{images/diya2.png}}
+\fancyhead[R]{\includegraphics[width=35mm]{images/diya2.png}}
+\fancyfoot[C]{}
+\fancyfoot[R]{\includegraphics[width=40mm]{images/diya2.png}}
+\fancyfoot[L]{\includegraphics[width=40mm]{images/diya2.png}}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\backgroundsetup{
+	scale=1,
+	angle=0,
+	opacity=1,
+	contents={
+		\begin{tikzpicture}[remember picture, overlay]
+			\shade[top color=yellow, middle color=brown!70, bottom color=red!80](current page.south west) rectangle (current page.north east);
+		\end{tikzpicture}
+	}
+}
+
+\begin{document}
+	
+	\normalfont
+	\centering
+	{\Huge Happy Diwali}
+	
+	\bigskip
+	\flushleft
+	\fmmfamily
+	{\large May there be no darkness in your life, may you prosper and shine like the Diya.}
+	
+	\vspace{0.5in}
+	
+	\centering
+	{\large Wishing everyone a very happy Diwali.}
+	
+	\vfill
+	
+	\begin{figure}[b]
+		\centering
+		\includegraphics[width=95mm]{images/diya4.png}
+	\end{figure}
+	
+
+\end{document}
