@@ -29,7 +29,7 @@ You may/maynot provide the `.svg` extension.
 
 * After this, if you are in TeXstudio, then go `Options` &rarr; `Configure TeXstudio` &rarr; `Commands` and from there Choose the `PdfLaTeX` field and add the option `--shell-escape` option to it.
 
-<img src="https://github.com/0x50-0x42/latex/blob/LaTeX/practicalNote/images/ss3.png" width="50%" height="50%">
+<img src="https://github.com/0x50-0x42/latex/blob/LaTeX/practicalNote/images/ss3.png" width="80%" height="80%">
 
 Only then it will run.
 
