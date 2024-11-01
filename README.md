@@ -7,6 +7,9 @@ Notes on latex.
 	* [LaTeX help](http://www.emerson.emory.edu/services/latex/latex_toc.html).
 * This repository will be get updated everytime I encounter some new commands.
 
+* Helpful links:
+	* [https://youtu.be/7B7ytLrMTa0?si=2k-FRV5bcKMBPUy2](https://youtu.be/7B7ytLrMTa0?si=2k-FRV5bcKMBPUy2).
+
 <p align="center">
 &#9678; &#9678; &#9678;
 </p>
