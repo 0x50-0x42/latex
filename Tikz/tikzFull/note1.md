@@ -1,7 +1,0 @@
-\documentclass{article}
-
-\usepackage{tikz}
-
-\begin{document}
-
-\end{document}
